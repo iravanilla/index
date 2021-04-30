@@ -8,4 +8,4 @@ async function getfrom_Server(url) {
     }
     }
     
-    console.log (getfrom_Server('https://jsonplaceholder.typicode.com/todos/1'))
+    getfrom_Server('https://jsonplaceholder.typicode.com/todos/1'.then((user) => console.log(user)))
