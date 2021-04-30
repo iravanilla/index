@@ -4,7 +4,7 @@ async function getfrom_Server(url) {
     let response = await fetch(url);
     return response.json();
     } catch(err) {
-    console.log('Ошибка HTTP: ' + respons.status)
+    console.log('Ошибка HTTP: ' + response.status)
     }
     }
     
